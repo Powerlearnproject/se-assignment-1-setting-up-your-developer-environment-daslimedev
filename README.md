@@ -43,6 +43,79 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
+answer
+1. Install Visual Studio Code
+Visual Studio Code (VS Code) is a powerful IDE for coding across various languages.
+
+Download VS Code from Visual Studio Code website.
+Run the downloaded installer.
+Follow the installation wizard instructions.
+Launch VS Code after installation.
+
+2. Set Up Git
+Git is essential for version control and collaboration.
+
+Download Git from git-scm.com.
+Run the downloaded installer.
+Follow the installation wizard instructions.
+Open a Command Prompt or Git Bash to verify installation:
+bash
+Copy code
+git --version
+Configure Git with your name and email:
+bash
+Copy code
+git config --global user.name "daslime"
+git config --global user.email "brianmutugidev@gmail.com"
+3. Create a GitHub Account
+GitHub hosts your Git repositories and facilitates collaboration.
+
+Visit github.com.
+Sign up for a free account if you haven't already.
+4. Initialize Git Repository
+Let’s set up a sample project with Git.
+
+Open VS Code.
+Create a new directory for your project.
+Open this directory in VS Code (File -> Open Folder).
+Initialize a Git repository from VS Code's integrated terminal:
+bash
+Copy code
+git init
+Create a README file:
+bash
+Copy code
+echo "# My Project" >> README.md
+git add README.md
+git commit -m "Initial commit"
+5. Install Python
+Python is a widely-used programming language.
+
+Download Python from python.org.
+Run the downloaded installer.
+During installation, check the box "Add Python to PATH".
+Follow the installation wizard instructions.
+6. Install MySQL
+MySQL is a relational database management system.
+
+Download MySQL Installer from dev.mysql.com.
+Run the downloaded installer.
+Choose "Custom" setup type.
+Select MySQL Server and MySQL Workbench for installation.
+Follow the installation wizard instructions. Set a root password during setup.
+7. Optional: Set Up Docker
+Docker simplifies the setup of development environments.
+
+Download Docker Desktop for Windows from docker.com.
+Run the downloaded installer.
+Follow the installation wizard instructions.
+8. Configure Visual Studio Code Extensions
+Explore and install useful VS Code extensions.
+
+Open VS Code.
+Navigate to Extensions (Ctrl+Shift+X).
+Search for extensions like Python, GitLens, Docker (if using Docker), etc.
+Install desired extensions to enhance functionality.
 
 #Evaluation Criteria:**
 - Completeness and accuracy of setup documentation.
